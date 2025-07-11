@@ -45,10 +45,3 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 
-const burger = document.getElementById('burger-menu');
-const nav = document.getElementById('main-nav');
-
-burger.addEventListener('click', () => {
-  burger.classList.toggle('active');
-  nav.classList.toggle('active');
-});
